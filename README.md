@@ -1,38 +1,24 @@
-# Fırat Sarıbaş Portfolio Site
+# Fırat Sarıbaş Portfolio
 
-Static portfolio site for GitHub Pages.
+A simple static portfolio site for GitHub Pages.
 
 ## Files
 
-- `index.html` — main portfolio page
-- `styles.css` — styling
+- `index.html`
+- `styles.css`
+- `Firat_Saribas_Portfolio.pdf`
+- `README.md`
 
-## Before publishing
+## Deploy on GitHub Pages
 
-Update these placeholders in `index.html`:
+1. Create a public GitHub repository, for example: `firat-portfolio`.
+2. Upload all files directly to the repository root.
+3. Go to **Settings > Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select branch: `main` and folder: `/root`.
+6. Click **Save**.
+7. Wait 1-2 minutes. GitHub will show the live site URL.
 
-- `your-email@example.com`
-- `https://www.linkedin.com/in/your-linkedin`
+## Notes
 
-Optional:
-
-- Add a downloadable PDF and link it in the hero section.
-- Add game screenshots or short gameplay GIFs later.
-- Add Google Analytics or Plausible if you want visitor tracking.
-
-## GitHub Pages deployment
-
-1. Create a new GitHub repository, for example: `firat-portfolio`.
-2. Upload `index.html` and `styles.css` to the repository root.
-3. Go to repository `Settings` → `Pages`.
-4. Under `Build and deployment`, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save.
-6. GitHub will publish the site at a URL similar to:
-   `https://your-github-username.github.io/firat-portfolio/`
-
-## Custom domain later
-
-You can later buy a domain like `firatsaribas.com` or `firatsaribas.dev` and connect it from GitHub Pages settings.
+The App Store icons are loaded dynamically from Apple's public lookup API. If the icons cannot load for any reason, the site falls back to simple initials.
